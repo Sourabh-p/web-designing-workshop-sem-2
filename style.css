@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url("Hill\ Climb\ Racing.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Container */
+.game-container {
+    padding-top: 30px;
+}
+
+/* Title */
+h1 {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Score box */
+.score-box {
+    background: rgb(104, 145, 210);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Game Area */
+.game-area {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* Button */
+.start-btn {
+    margin-top: 20px;
+    padding: 15px 40px;
+    font-size: 18px;
+    background: orange;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.start-btn:hover {
+    background: red;
+    color: white;
+}
