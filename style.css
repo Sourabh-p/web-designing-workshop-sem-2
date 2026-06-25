@@ -1,60 +1,63 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background: url("Hill\ Climb\ Racing.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
 }
 
-/* Container */
-.game-container {
-    padding-top: 30px;
+body{
+    background:#4b7bec;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
 }
 
-/* Title */
-h1 {
-    color: white;
-    text-shadow: 2px 2px 5px black;
+.container{
+    width:350px;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 15px rgba(0,0,0,0.3);
 }
 
-/* Score box */
-.score-box {
-    background: rgb(104, 145, 210);
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-size: 22px;
-    margin-bottom: 20px;
+h2{
+    margin-bottom:20px;
+    color:#333;
 }
 
-/* Game Area */
-.game-area {
-    width: 80%;
-    height: 300px;
-    margin: auto;
-    border-radius: 20px;
-    position: relative;
-    background-size: cover;
-    background-position: center;
+input{
+    width:100%;
+    padding:10px;
+    font-size:16px;
+    margin-bottom:15px;
 }
 
-
-
-/* Button */
-.start-btn {
-    margin-top: 20px;
-    padding: 15px 40px;
-    font-size: 18px;
-    background: orange;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: bold;
+button{
+    width:100%;
+    padding:10px;
+    background:#4b7bec;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
 }
 
-.start-btn:hover {
-    background: red;
-    color: white;
+button:hover{
+    background:#3867d6;
+}
+
+#error{
+    color:red;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+#result{
+    margin-top:20px;
+    color:green;
+    font-size:18px;
+    font-weight:bold;
 }
